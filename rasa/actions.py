@@ -14,7 +14,7 @@ class ActionAskAboutWorld(Action):
             domain: dict) -> list:
 
         # Get the latest news from an API (NewsAPI in this example)
-        api_key = os.getenv('NEWS_API_KEY')
+        api_key = os.getenv('ca6b11a4337043e88e6912aa4dcc9209')
         url = f"https://newsapi.org/v2/top-headlines?country=us&apiKey={api_key}"
         response = requests.get(url)
         news_data = response.json()
