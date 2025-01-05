@@ -1,0 +1,23 @@
+version: "2.0"
+nlu:
+  - intent: greet
+    examples: |
+      - Hi
+      - Hello
+      - Hey
+  - intent: goodbye
+    examples: |
+      - Bye
+      - Goodbye
+  - intent: ask_world_news
+    examples: |
+      - What's the latest news?
+      - Tell me the world news
+  - intent: affirm
+    examples: |
+      - Yes
+      - Sure
+  - intent: deny
+    examples: |
+      - No
+      - Not interested
