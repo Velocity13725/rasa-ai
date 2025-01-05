@@ -1,0 +1,28 @@
+intents:
+  - greet
+  - goodbye
+  - ask_world_news
+  - affirm
+  - deny
+
+entities:
+  - world_news
+
+slots:
+  world_news:
+    type: text
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you today?"
+  utter_goodbye:
+    - text: "Goodbye!"
+  utter_ask_world_news:
+    - text: "Sure, I can fetch the latest world news for you."
+  utter_world_news:
+    - text: "Here is the latest news: {world_news}"
+  utter_default:
+    - text: "Sorry, I didn't understand that."
+
+actions:
+  - action_ask_about_world
