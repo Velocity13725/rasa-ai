@@ -1,4 +1,4 @@
-rasa
+transformers
 streamlit
 requests
-pyngrok==5.2.1
+
