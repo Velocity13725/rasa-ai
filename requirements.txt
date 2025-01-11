@@ -1,4 +1,5 @@
 transformers
 streamlit
 requests
-torch==2.1.1+cpu
+torch==2.0.1+cpu
+tensorflow-cpu
