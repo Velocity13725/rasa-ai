@@ -1,6 +1,9 @@
 import streamlit as st
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import requests
+import logging
+logging.basicConfig(level=logging.DEBUG)
+
 
 # Load the DialoGPT model and tokenizer
 model_name = "microsoft/DialoGPT-medium"
